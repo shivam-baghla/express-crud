@@ -1,0 +1,23 @@
+{
+  "name": "express-crud",
+  "version": "1.0.0",
+  "description": "to perform crud ops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivambaghla/express-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivambaghla/express-crud/issues"
+  },
+  "homepage": "https://github.com/shivambaghla/express-crud#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
