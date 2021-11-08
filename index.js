@@ -27,6 +27,10 @@ app.get("/tasks", (req, res) => {
 // /tasks/{:id} will return task having index = id
 app.get("/tasks/:id", (req, res) => {
     console.log('request came')
+    if(typeof tasks[req.params.id] === 'undefined') 
+    {
+        res.status(404).send('Not found');
+    }
     res.send(tasks[req.params.id]);
 })
 
